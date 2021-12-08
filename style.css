@@ -1,0 +1,32 @@
+.head{
+    width: 100%;
+    margin-top: 0;
+    height: 100px;
+    font-size: x-large;
+    font-family: fantasy;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.inhead{
+    font-size: small;
+    font-family: cursive;
+}
+
+label{
+    background-color: rgb(37, 122, 201);
+    line-height: 5;
+    bottom:0;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    color: orange;
+    font-size: large;
+}
+
+canvas{
+    box-shadow: 5px 5px 5px pink;
+    border: 2px dashed lavender;
+    margin-top:400px;
+    pad: 10px;
+}
