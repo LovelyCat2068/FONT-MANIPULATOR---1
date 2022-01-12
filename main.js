@@ -12,5 +12,19 @@ function modelloaded(){
 }
 
 function cake(result){
-    console.log(result);
+    if(result.length > 0){
+        console.log(result);
+        noseX = result[0].pose.nose.x;
+        noseY = result[0].pose.nose.y;
+        rightwristX = result[0].pose.rightWrist.x;
+        leftwristX = result[0].pose.leftWrist.x;
+        difference = floor(leftwristX - rightwristX);
+        }
+}
+
+function draw(){
+    background('#32a852');
+    textsize(difference);
+    fill('#ebb734');
+    text('Advika', 20, 100);
 }
